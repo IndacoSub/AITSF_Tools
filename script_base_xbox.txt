@@ -1,0 +1,618 @@
+@ROOT: Lua files
+
+// start
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/C5-wrap_20_10_Psync-Rm_Boss.bytes"), pid('-3342994704744572180')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/A5-wrap_90_10_BossRoom_Boss.bytes"), pid('8485087757952735452')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/B6-wrap_90_10_JinjaMae_Mizuki.bytes"), pid('-5918890025463124329')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/D5-wrap_10_10_SaitoAgt_Iris.bytes"), pid('3216882843773290651')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/save_message.bytes"), pid('-4144508219912225012')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/save.bytes"), pid('-2943458739180478001')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/somnium.bytes"), pid('-696811905274941184')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/luabytecode"), fn("txt/lua/xbox/inc_const_variable.bytes"), pid('4621575636330027982')],
+
+@ROOT: MonoBehaviours
+
+[ga("resources.assets"), txt("txt/mb/xbox/AUTOSAVE"), pid('887'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_save"), txt("txt/mb/xbox/SAVE"), pid('336'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_save"), txt("txt/mb/xbox/LOAD"), pid('329'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_root"), txt("txt/mb/xbox/LANGUAGE"), pid('1503'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_root"), txt("txt/mb/xbox/RETRY"), pid('1760'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), txt("txt/mb/xbox/UNLOCKED1"), pid('12638'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), txt("txt/mb/xbox/LOCKED1"), pid('12852'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), txt("txt/mb/xbox/LOCKED2"), pid('13398'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), txt("txt/mb/xbox/AWAKEN"), pid('8299'), kind("MONOBEHAVIOUR_FULL")],
+
+// Newly discovered "UNLOCKED": [ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), txt("txt/mb/xbox/UNLOCKED2"), pid('8614'), kind("MONOBEHAVIOUR_FULL")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), txt("txt/mb/xbox/GAMEOVER"), pid('2971'), kind("MONOBEHAVIOUR_FULL")],
+
+@ROOT: Graphics
+
+# IDK floors?
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/bg_md_bg12_10"), png("img/bg12_10_floortxt"), pid('-933290112889955880')],
+
+# GUI
+
+// FOT-KafuTechnoStd-H
+// FOT-TsukuGoPr5N-M
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/SpriteAtlasTexture-Title-2048x512-fmt25"), pid('-628324086556750075')],
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_languageselect"), png("img/SpriteAtlasTexture-Title-2048x512-fmt25"), pid('4')],
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_title"), png("img/SpriteAtlasTexture-Title-2048x512-fmt25"), pid('6')],
+
+// FOT-KafuTechno Std-H
+// FOT-TsukuGoPr5N-M
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/SpriteAtlasTexture-UI (Group 0)-2048x2048-fmt25"), pid('6939700182799419375')],
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/SpriteAtlasTexture-UI (Group 0)-2048x2048-fmt25"), pid('30')],
+
+// FOT-BlueYonder
+// Does not exist ???? [ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/SpriteAtlasTexture-UI_QTE (Group 0)-2048x512-fmt25"), pid('8619834341218932957')],
+
+// FOT-BogbooBold
+// FOT-KafuTechno Std-H
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/SpriteAtlasTexture-UI_option (Group 0)-2048x2048-fmt25"), pid('-4150286724235425887')],
+[ga("resources.assets"), png("img/SpriteAtlasTexture-UI_option (Group 0)-2048x2048-fmt25"), pid('49')],
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_file"), png("img/SpriteAtlasTexture-UI_option (Group 0)-2048x2048-fmt25"), pid('17')],
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_optionmenu"), png("img/SpriteAtlasTexture-UI_option (Group 0)-2048x2048-fmt25"), pid('12')],
+
+// FOT-AokaneStd-EB
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/SpriteAtlasTexture-UI_option (Group 2)-1024x512-fmt25"), pid('5358476981098104395')],
+[ga("resources.assets"), png("img/SpriteAtlasTexture-UI_option (Group 2)-1024x512-fmt25"), pid('52')],
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_optionmenu"), png("img/SpriteAtlasTexture-UI_option (Group 2)-1024x512-fmt25"), pid('13')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/SpriteAtlasTexture-UI_option_file-2048x1024-fmt25"), pid('6755166058660245116')],
+[ga("resources.assets"), png("img/SpriteAtlasTexture-UI_option_file-2048x1024-fmt25"), pid('53')],
+
+# Blocchi Mentali
+
+// FOT-DotGothic16Std-M
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/bg_md_bg13_10"), png("img/locked_03"), pid('3159993506256166246')],
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_03"), pid('3159993506256166246')],
+
+// FOT-Stamptime
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_01"), pid('6071296161800762274')],
+
+// FOT-KafuTechno Std-H
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_01_tex"), pid('3090560164639367827')],
+
+// FOT-Stamptime
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_01_texB"), pid('-2758944676130430745')],
+
+// FOT-ComicShop
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_a4_01"), png("img/locked_02"), pid('9')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_03"), pid('3159993506256166246')],
+
+// FOT-80sPop
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_04"), pid('5388196524744606538')],
+
+// Hakuu Regular
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_05"), pid('496833298557699257')],
+
+// FOT-RodinHimawari Pro-UB
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_06"), pid('-8850713416216870226')],
+
+// Multiple fonts
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/locked_07"), pid('1169848245066928492')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), txt("img/sprites/locked_01"), pid('-3125941262015865590')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_a4_01"), txt("img/sprites/locked_02"), pid('2080')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), txt("img/sprites/locked_03"), pid('-1270162174122926850')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), txt("img/sprites/locked_04"), pid('-4278257249601170503')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), txt("img/sprites/locked_05"), pid('-1717900677543136097')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), txt("img/sprites/locked_06"), pid('-2225750975675574568')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), txt("img/sprites/locked_07"), pid('-6997450167828184979')],
+
+# ABIS something
+
+// FOT-DNPShueiShogoMinStd - HV
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/ui_notespage_L00"), pid('5149705679203942879')],
+
+// FOT-DNPShueiShogoMinStd - HV
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/etc"), png("img/ui_notespage_R00"), pid('6471969060026049832')],
+
+# Album
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/file_image_album"), png("img/FilesIG_Y_F0_Congratulation00"), pid('7228245135870049309')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/file_image_album_thumbnail"), png("img/FilesIG_Y_F0_Congratulation00t"), pid('-7445405431898375672')],
+
+# Hacking / defense
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/defense_font_01"), pid('-5717701297071008892')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/defense_font_01_us"), pid('8702855717737920526')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/hacking_font_01"), pid('6212450563047138338')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/hacking_font_01_us"), pid('-3233335271659231619')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/hacking_font_02"), pid('3979978094374048720')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/hacking_font_02_us"), pid('131818632997036016')],
+
+# "Ls" stuff in Image
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/ls_image_03_us"), pid('-5594115255172835207')],
+
+// FOT-KafuPenjiStd-L - E4-wrap_20_10-us 09_22 + 09_23
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/ls_image_29_us"), pid('5297705797197110409')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/ls_image_33_us"), pid('-4853747989682707137')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image"), png("img/ls_image_34_us"), pid('-513469670447008265')],
+
+# Character names
+// All FOT-UDMarugo_LargePr6-L
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c100"), pid('6910101807053783107')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c101"), pid('-4702042040608468212')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c103"), pid('-4267817785484153576')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c104"), pid('-8248797330788104851')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c105"), pid('7478685971015121757')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c106"), pid('6072180749487826701')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c107"), pid('8795080580904569884')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c51"), pid('-2723982806067740857')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c52"), pid('-4439675449549820370')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c53"), pid('851576970752962531')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c54"), pid('-3672503598899125587')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c55"), pid('2455298673652439947')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c59"), pid('-1944607278515313226')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c60"), pid('-8051498677762673766')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c70"), pid('-141046230186018230')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c74"), pid('-502868590805613411')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c75"), pid('264751981395629603')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c76"), pid('-1382798748059636387')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c77"), pid('-2669340589636680520')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c92"), pid('6290734407574868225')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c93"), pid('-8661707188741874698')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c95"), pid('6450663014851434907')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c97"), pid('-8176212765542154376')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c98"), pid('1450327556909222927')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/image_name_us"), png("img/ui_main_name_c99"), pid('-3295054360411832574')],
+
+# Items
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/item_ii011"), png("img/md_ii011_smaphoIris00_01_en"), pid('-9078710629690575164')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/item_ii027"), png("img/md_ii027_us"), pid('-6544224960709845063')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/item_ii006"), png("img/md_ii006"), pid('4691658127910813896')],
+
+# Guide
+// All FOT-SeuratCapie Pro - DB
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_investigation_pc_us"), pid('6741690177109813108')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_investigation_ps4_us"), pid('-44978599540095146')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_investigation_ps4us_us"), pid('-5379795891260724547')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_investigation_switch_us"), pid('7853785126494200496')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_investigation_xbox_us"), pid('3662933598325061110')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_somnium_pc_us"), pid('-3489385695083611161')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_somnium_ps4_us"), pid('4761874253827872206')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_somnium_ps4us_us"), pid('1201465122290177807')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_somnium_switch_us"), pid('3479090391160051993')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/operation_guide"), png("img/operation_guide_somnium_xbox_us"), pid('4177588007015340781')],
+
+# Saveload
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/saveload"), png("img/saveload_a"), pid('2102595308594606782')],
+
+// FOT-Skip Bold
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_autosaveguide"), png("img/autoSaveGuide_us"), pid('4')],
+
+# Dance
+
+// FOT-KafuTechnoStd-H
+// FOT-TsukuGoPr5N-R
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_dance"), png("img/ui_dance_grand_01_us"), pid('14')],
+
+// FOT-TsukuGoPr5N-M
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_dance"), png("img/ui_dance_guide_01_us"), pid('8')],
+
+// FOT-KafuTechnoStd-H
+// FOT-TsukuGoPr5N-R
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_dance"), png("img/ui_dance_practice_01_us"), pid('9')],
+
+# Fiction warning
+
+// FOT-Skip Bold
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_fiction"), png("img/fictionGuide_us"), pid('6')],
+
+# Books
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_file"), png("img/ui_option_file01_us"), pid('40')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_file"), png("img/ui_option_file02_us"), pid('38')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_file"), png("img/ui_option_file03_us"), pid('26')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_file"), png("img/ui_option_tag_01_us"), pid('22')],
+[ga("resources.assets"), png("img/ui_option_tag_01_us"), pid('82')],
+
+# Flowchart
+
+// Yes, there's actually a space here
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), png("img/ui_flowchart_nowPoint01Txt _us"), pid('45')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), png("img/ui_flowchart_paper_us"), pid('63')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), png("img/ui_flowchart_tutorial_01_us"), pid('59')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), png("img/ui_flowchart_tutorial_02_us"), pid('62')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), png("img/ui_option_flowchart00_us"), pid('48')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_flowchart"), png("img/ui_option_flowchart02_us"), pid('35')],
+
+# Investigation
+
+// FOT-Bogboo
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/SpriteAtlasTexture-UI_Phone-1024x1024-fmt25"), pid('26')],
+
+// FOT-TsukuBOldMin Pr6N-B
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/ui_chaptor_us"), pid('49')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/ui_main_button_cameraoff"), pid('55')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/ui_main_button_cameraoff_us"), pid('38')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/ui_main_button_changecamera"), pid('41')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/ui_main_button_changecamera_us"), pid('36')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/ui_tutorial_button_01_us"), pid('44')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_investigation"), png("img/ui_tutorial_button_02_us"), pid('62')],
+
+# Options
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_optionmenu"), png("img/ui_option_text"), pid('15')],
+
+// FOT-TsukuGo Pro-B
+// FOT-TsukuGoPr5N-D
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_options"), png("img/ui_options_paperC_us"), pid('18')],
+
+// FOT-TsukuGo Pro-B
+// FOT-TsukuGoPr5N-D
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_options"), png("img/ui_options_paper_us"), pid('17')],
+
+// Does not exist ??? [ga("StreamingAssets/AssetBundles/StandaloneWindows64/ui_option"), png("img/SpriteAtlasTexture-UI_option_flowchart (Group 0)-1024x1024-fmt25"), pid('2787593324931237597')],
+
+# Root
+
+// FOT-Skip ProN-M
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_root"), png("img/ui_main_common_01_us"), pid('20')],
+
+// FOT-Skip ProN-M
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_root"), png("img/ui_main_common_02_us"), pid('29')],
+
+# Somnium
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/SpriteAtlasTexture-UI_somnium (Group 0)-2048x1024-fmt25"), pid('15')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/SpriteAtlasTexture-UI_somnium (Group 0)-2048x2048-fmt25"), pid('13')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_somnium_gameover_10_us"), pid('45')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_somnium_gameover_11_us"), pid('32')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_somnium_gameover_12_us"), pid('54')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_somnium_item_00_us"), pid('59')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_somnium_maphelp_02"), pid('33')],
+
+// FOT-KafuTechnoStd-H
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_somnium_timer_bg_02_us"), pid('42')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_tutorial_button_03_us"), pid('48')],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/scene_somnium"), png("img/ui_tutorial_button_04_us"), pid('63')],
+
+@ROOT: Video - for testing purposes only
+
+# Video
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_a0-open10_m10_00_en_2k_60"), mov("mov/Video_A0-open10_M10_00_en_2k_60"), pid('-85346703345207546'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+@ROOT: Video
+
+# Common
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_a3_wrap_10_20_psync_rm_iris_boss_puta_00_us_2k_60"), mov("mov/Video_A3_wrap_10_20_Psync_Rm_Iris_Boss_Puta_00_us_2k_60"), pid('-6997645166205293953'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_a3_wrap_20_10_syokudou_iris_outa_mayumi_00_us_2k_60"), mov("mov/Video_A3_wrap_20_10_Syokudou_Iris_Outa_Mayumi_00_us_2k_60"), pid('-4259362453924522174'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_a4_begin80_10_hospital_outa_boss_02_us_2k_60"), mov("mov/Video_A4_begin80_10_Hospital_Outa_Boss_02_us_2k_60"), pid('-1791479988060812077'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+# English
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_dance_en_2k_60"), mov("mov/Video_Dance_en_2k_60"), pid('-1810984505054993910'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_e6-wrap79_m10_00_en_2k_60"), mov("mov/Video_E6-wrap79_M10_00_en_2k_60"), pid('-7936141548837690481'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+# Japanese
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_dance_jp_2k_60"), mov("mov/Video_Dance_jp_2k_60"), pid('2300104353007762877'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+[ga("StreamingAssets/AssetBundles/StandaloneWindows64/movie/video_video_e6-wrap79_m10_00_jp_2k_60"), mov("mov/Video_E6-wrap79_M10_00_jp_2k_60"), pid('1351156595841522007'), kind("VIDEOCLIP_AS_RESOURCE")],
+
+//@ROOT: Font textures
+
+// Fonts are hell
+
+//[ga("resources.assets"), png("font/resassets/FOT-Bogboo SDF Atlas"), pid('233'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-KleePro-DB#24-tex"), pid('106'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-KleePro-DB#26-tex"), pid('91'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-KleePro-DB#36-tex"), pid('226'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-KleePro-DB#38-tex"), pid('188'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-KleePro-DB#42-tex"), pid('76'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-NewCinemaBStd-D#40-tex"), pid('155'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-TsukuGoPro-M#31-tex"), pid('97'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/FOT-TsukuGoPro-M#42-tex"), pid('151'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/investigation-tex"), pid('143'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/narration-tex"), pid('77'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/somnium-tex"), pid('223'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/tutorial-tex"), pid('112'), kind('PNG_FONT')],
+
+//[ga("resources.assets"), png("font/resassets/ui-tex"), pid('114'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-AraletStd-DB#26-tex"), pid('3261559555948259459'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-AraletStd-DB#28-tex"), pid('3726949079528714042'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-AraletStd-DB#30-tex"), pid('-7340109786551199760'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-AraletStd-DB#32-tex"), pid('2284837454713831325'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-AraletStd-DB#50-tex"), pid('3798311698106100801'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-BlueYonder#160-tex"), pid('-1942756065351710520'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-BlueYonder#180-tex"), pid('-2878375449806929814'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-BlueYonder#200-tex"), pid('3015704129326385696'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-Bogboo#40-tex"), pid('4386999762768149679'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-Bogboo SDF Atlas"), pid('5115736993685484838'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuMarkerStd-B#48-tex"), pid('-4604428801021988492'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#120-tex"), pid('-8986149617462868502'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#20-tex"), pid('5222453617472399765'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#35-tex"), pid('7789290132110939483'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#40-tex"), pid('478024740982497219'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#42-tex"), pid('-5385580615803294153'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#49-tex"), pid('6596730964254953593'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#59-tex"), pid('-2395737523726951274'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#60-tex"), pid('-5127515806366282222'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-E#70-tex"), pid('-7019339002025176659'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-H#36-tex"), pid('-4083266696261598013'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-H#38-tex"), pid('4032244730359492346'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KafuTechnoStd-H#48-tex"), pid('3651113474107670524'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KleePro-DB#24-tex"), pid('-4280212371067875463'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KleePro-DB#26-tex"), pid('-6969699381409777734'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KleePro-DB#36-tex"), pid('-4375367357504070064'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-KleePro-DB#42-tex"), pid('-1286789644204896331'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-NewCinemaBStd-D#40-tex"), pid('-4192751022771168446'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-NewCinemaBStd-D#48-tex"), pid('794608170127316690'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-SkipStd-B#32-tex"), pid('-4647693522060973077'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-SkipStd-M#24-tex"), pid('-7019871165923227885'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-SkipStd-M#30-tex"), pid('-6683608352401391135'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-SkipStd-M#32-tex"), pid('5290725455846666600'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-SkipStd-M#40-tex"), pid('-8706834107960348386'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuBOldMinPr6-R#30-tex"), pid('-1735152309116948841'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuBOldMinPr6-R#40-tex"), pid('3525659873168735233'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuBOldMinPr6-R#60-tex"), pid('-5903158365181443097'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuBOldMinPr6-R SDF Atlas"), pid('907997796046974882'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuGoPro-M#24-tex"), pid('2787704881399249704'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuGoPro-M#26-tex"), pid('6716971074628355245'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuGoPro-M#28-tex"), pid('230673484979871044'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuGoPro-M#30-tex"), pid('-8563102226904299441'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuGoPro-M#40-tex"), pid('7040713178900559369'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-TsukuGoPro-M#48-tex"), pid('6494234990655090261'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/FOT-UDKakugo_LargePr6-E#140-tex"), pid('-2596334577236442219'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/investigation-tex"), pid('-5770184097529175965'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), png("font/fonts/ui-tex"), pid('-4114590786989223179'), kind('PNG_FONT')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-AraletStd-DB#26"), pid('1850124894319233886')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-AraletStd-DB#28"), pid('-1903630543602361025')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-AraletStd-DB#30"), pid('-8673120394104756469')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-AraletStd-DB#32"), pid('5133129868721142057')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-AraletStd-DB#50"), pid('7172895253595090066')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-BlueYonder#160"), pid('-4181349732619155941')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-BlueYonder#180"), pid('7585625361826529308')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-BlueYonder#200"), pid('7880449858616628225')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-Bogboo SDF"), pid('6270265551679099555')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-Bogboo#40"), pid('-1585065746942762427')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuMarkerStd-B#48"), pid('811258566116154668')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#120"), pid('-3465761241919357220')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#20"), pid('-1171706158303798636')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#35"), pid('-6921564509167453671')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#40"), pid('7522409224838309041')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#42"), pid('1293710025032600182')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#49"), pid('3985431090366468844')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#59"), pid('-1364342049634318099')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#60"), pid('-1816222189245213677')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-E#70"), pid('5393812000282701224')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-H#36"), pid('1894529788561371089')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-H#38"), pid('6418156180361726062')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KafuTechnoStd-H#48"), pid('6360673237543231492')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KleePro-DB#24"), pid('233383143610101430')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KleePro-DB#26"), pid('5447089837745260376')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KleePro-DB#36"), pid('5718260968726194127')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-KleePro-DB#42"), pid('-830298943706191576')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-NewCinemaBStd-D#40"), pid('-6390576790769402189')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-NewCinemaBStd-D#48"), pid('-889511897355480114')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-SkipStd-B#32"), pid('6329082828986950954')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-SkipStd-M#24"), pid('-621955491771661916')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-SkipStd-M#30"), pid('2307153319273217376')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-SkipStd-M#32"), pid('-7271998507334997049')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-SkipStd-M#40"), pid('6596366705412304199')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuBOldMinPr6-R SDF"), pid('1475196530684046073')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuBOldMinPr6-R#30"), pid('5597372472717365090')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuBOldMinPr6-R#40"), pid('8442623635078362070')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuBOldMinPr6-R#60"), pid('7901696738492535916')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#24"), pid('3610106490872802047')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#26"), pid('-806764394936068198')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#28"), pid('-5557754652615180669')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#30"), pid('2899041774839052480')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#40"), pid('2527684113504793928')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#48 Material1"), pid('4424860944386746214')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#48 Material2"), pid('-3511202330599374905')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#48"), pid('-2709233935040484861')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-TsukuGoPro-M#48_shadow"), pid('1006082539247066376')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/FOT-UDKakugo_LargePr6-E#140"), pid('-4722833419905692123')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/investigation"), pid('5524456839818893709')],
+
+//[ga("StreamingAssets/AssetBundles/StandaloneWindows64/fonts"), txt("font/fonts/mb/ui"), pid('-1467523037430439952')],

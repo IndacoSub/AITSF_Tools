@@ -1,0 +1,15 @@
+*.mo
+
+*.bak
+/mov
+/before
+/compress_logs
+/after
+*.tpk
+txt/xbox_precompiled_luabytecode
+font/precompiled_fonts
+txt/steam_precompiled_luabytecode
+/dist
+txt/xbox_og_luabytecode
+txt/xbox_final_luabytecode
+txt/xbox_final_luabytecode_compressed
